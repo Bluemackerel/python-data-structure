@@ -20,7 +20,7 @@ class Stack():
     
     def pop(self):
         if self.isEmpty():
-            raise "엠티엠티스택"
+            raise "empty stack"
         item = self._first.item
         self._first = self._first.next
         return item
